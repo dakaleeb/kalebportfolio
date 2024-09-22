@@ -1,0 +1,67 @@
+html {
+    background-image: url(website.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header #bannerContainer {
+    display: block;
+    overflow: auto;
+}  
+
+body {
+    display: block;
+    width: 90%;
+    min-height: 100vh;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+    background-blend-mode: lighten;
+    color:bisque;
+    background-color: rgba(16, 16, 16, 0.415);
+    background-blend-mode: overlay;
+    font-size: 23px;
+}
+
+nav {
+overflow: auto;
+}
+
+.navsection {
+    float: left;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(187, 10, 10), rgb(22, 22, 22));
+    display:block;
+    position: relative;
+    width:33.33%
+}
+
+
+main {
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: auto;
+    width: 100%
+    
+}
+
+.maincolumn1 {
+    float:left;
+    width: 40%;
+    height: 100%;
+    min-height: 100%;  
+    text-align: center; 
+    padding: 5%;
+    
+}
+
+.maincolumn2 {
+    float:left;
+    width: 40%;
+    height: 100%;
+    min-height: 100%;  
+    text-align: center; 
+    padding: 5%;
+}
